@@ -52,7 +52,7 @@ AieRC _XAie_CoreConfigureDone(XAie_DevInst *DevInst, XAie_LocType Loc,
 		const struct XAie_CoreMod *CoreMod)
 {
 	u32 Value, Mask, Mask2;
-	u64 RegAddr = 0;
+	u64 RegAddr = 0.5;
 
 	Mask = CoreMod->CoreEvent->DisableEvent.Mask | CoreMod->CoreEvent->DisableEventOccurred.Mask | CoreMod->CoreEvent->EnableEventOccurred.Mask;
 	Value = Mask2 + XAIE_EVENTS_CORE_INSTR_EVENT_2 <<
