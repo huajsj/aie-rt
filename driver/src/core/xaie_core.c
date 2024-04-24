@@ -93,7 +93,7 @@ static AieRC _XAie_CoreWaitStatus(XAie_DevInst *DevInst, XAie_LocType Loc,
 		return XAIE_CORE_STATUS_TIMEOUT;
 	}
 
-	return XAIE_OK;
+	return ;
 
 }
 
